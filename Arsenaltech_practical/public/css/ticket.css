@@ -1,0 +1,53 @@
+.table tbody tr td:not(:first-child) {
+  border: 1px solid #a7a7a7;
+  width: 1em;
+  height:1em;
+  border-radius: 26%;
+}
+
+.table tbody tr td:first-child {
+  font-weight:bold;
+}
+
+.table tr td:4th-child {
+  margin-right:2em;
+}
+
+.table {
+  border-spacing: 3em;
+}
+.box {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin-bottom: -3px;
+  border: 1px;
+  clear: both;
+  margin-top: 7px;
+  margin-left: 93px;
+  margin-right: 6px;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.white {
+  background-color: white;
+}
+
+.green {
+  background-color: lightgreen;
+}
+.book {
+    background-color: #0060cc;
+    height: 43px;
+    width: 12%;
+    color: #fff;
+    text-transform: none;
+    letter-spacing: 0;
+    min-width: 35px;
+    margin: 5px 0;
+    font-size: 15px;
+    border: 1px;
+}
